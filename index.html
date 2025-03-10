@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Master</title>
+    <meta name="description" content="Improve your typing speed and accuracy with this interactive typing master.">
+    <meta name="keywords" content="Typing Master, Typing Practice, Learn Typing, Improve Typing Speed">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR-GA-ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'YOUR-GA-ID');
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Left Side AdSense Ad -->
+    <div class="adsense-left">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-XXXXXXXXXXXXXXX"
+             data-ad-slot="XXXXXXXXXX"
+             data-ad-format="auto"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+    <!-- Right Side AdSense Ad -->
+    <div class="adsense-right">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-XXXXXXXXXXXXXXX"
+             data-ad-slot="XXXXXXXXXX"
+             data-ad-format="auto"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+   <!-- Mobile Menu Icon -->
+   <div class="menu-icon" id="menu-icon">
+    ☰
+</div>
+
+<!-- Right Side Navigation Menu -->
+<nav id="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+    
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Service</a></li>
+    </ul>
+</nav>
+
+    
+    <div class="container">
+        <h1>Typing Master</h1>
+
+        <!-- Typing Area -->
+        <div class="typing-area">
+            <div class="text-to-type" id="text-to-type"></div>
+        </div>
+
+        <!-- Metrics Section -->
+        <div class="metrics">
+            <div class="metric-box">
+                <h3>Speed</h3>
+                <p id="speed">0 WPM</p>
+            </div>
+            <div class="metric-box">
+                <h3>Accuracy</h3>
+                <p id="accuracy">0%</p>
+            </div>
+            <div class="metric-box">
+                <h3>Score</h3>
+                <p id="score">0</p>
+            </div>
+        </div>
+
+        <!-- Current Key -->
+        <div class="current-key-info">
+            <span>Current Key:</span>
+            <span id="current-key" class="current-key-highlight">_</span>
+        </div>
+
+        <!-- Keyboard -->
+        <div class="keyboard-container">
+            <div class="keyboard" id="keyboard"></div>
+        </div>
+
+        <!-- Change Keyboard Design Button -->
+        <button id="change-design-btn"></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
